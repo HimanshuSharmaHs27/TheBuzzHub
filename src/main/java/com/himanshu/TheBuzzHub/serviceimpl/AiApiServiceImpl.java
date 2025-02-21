@@ -45,7 +45,7 @@ public class AiApiServiceImpl implements AiApiService {
 			e.printStackTrace();
 		}
 
-		String url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDTB050rMvvNdyp7uSxI9LTfyIw_dZ2ELc";
+		String url = "";
 
 		HttpHeaders header = new HttpHeaders();
 		header.add("Content-Type", MediaType.APPLICATION_JSON_VALUE);
